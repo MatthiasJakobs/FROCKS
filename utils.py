@@ -21,6 +21,52 @@ class RocketKernel:
 
         return X_transformed
 
+def get_binary_dataset_names():
+    return [
+        'BeetleFly',
+        'BirdChicken',
+        'Chinatown',
+        'Coffee',
+        'Computers',
+        'DistalPhalanxOutlineCorrect',
+        'DodgerLoopGame',
+        'DodgerLoopWeekend',
+        'Earthquakes',
+        'ECG200',
+        'ECGFiveDays',
+        'FordA',
+        'FordB',
+        'FreezerRegularTrain',
+        'FreezerSmallTrain',
+        'GunPoint',
+        'GunPointAgeSpan',
+        'GunPointMaleVersusFemale',
+        'GunPointOldVersusYoung',
+        'Ham',
+        'HandOutlines',
+        'Herring',
+        'HouseTwenty',
+        'ItalyPowerDemand',
+        'Lightning2',
+        'MiddlePhalanxOutlineCorrect',
+        'MoteStrain',
+        'PhalangesOutlinesCorrect',
+        'PowerCons',
+        'ProximalPhalanxOutlineCorrect',
+        'SemgHandGenderCh2',
+        'ShapeletSim',
+        'SonyAIBORobotSurface1',
+        'SonyAIBORobotSurface2',
+        'Strawberry',
+        'ToeSegmentation1',
+        'ToeSegmentation2',
+        'TwoLeadECG',
+        'Wafer',
+        'Wine',
+        'WormsTwoClass',
+        'Yoga'
+    ]
+
 def transform_seeds(X, seeds, ts_length):
     K = [RocketKernel(int(seed), ts_length, ppv_only=True) for seed in seeds]
     return np.concatenate([k.transform(X) for k in K], axis=1)
