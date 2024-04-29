@@ -7,5 +7,17 @@ This repository contains the code to run and reproduce the experiments for feder
 ## Usage
 - Clone this repo.
 - Download and unzip the UCRArchive Time Series Classification dataset: [UCRArchive](https://www.cs.ucr.edu/%7Eeamonn/time_series_data_2018/), and place it in the same directory of the repository.
-- Create a Virtualenv and install the requirements. 
-- Each folder of this repository contains specific instructions on how to execute the centralized, federated and FROCKS experiments.
+- Install the requirements. 
+- Each folder of this repository contains specific instructions on how to execute the centralized, federated, and FROCKS experiments.
+
+## Results
+The results directory reports the accuracy and F1-score metrics for all the UCR Archive binary classification datasets.
+
+## Contributors
+* Bruno Casella <bruno.casella@unito.it>  
+
+* Matthias Jakobs <matthias.jakobs@tu-dortmund.de>
+
+* Marco Aldinucci <marco.aldinucci@unito.it>
+
+* Sebastian Buschjäger <sebastian.buschjaeger@tu-dortmund.de>
