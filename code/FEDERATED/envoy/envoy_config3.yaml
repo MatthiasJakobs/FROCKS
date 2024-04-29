@@ -1,0 +1,12 @@
+optional_plugin_components: {}
+params:
+  cuda_devices: []
+shard_descriptor:
+  params:
+    data_dir: StarLightCurves
+    data_folder: ucr_data
+    kernels: '100'
+    rank_worldsize: 3,4
+    rocket: false
+    seed: '3'
+  template: ucr_shard_descriptor.UCRShardDescriptor

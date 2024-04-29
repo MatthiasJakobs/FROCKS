@@ -11,7 +11,7 @@ This repository contains the code to run and reproduce the experiments for feder
 - Each folder of this repository contains specific instructions on how to execute the centralized, federated, and FROCKS experiments.
 
 ## Results
-The results directory reports the accuracy and F1-score metrics for all the UCR Archive binary classification datasets.
+The results directory reports the accuracy and F1-score metrics for all the UCR Archive binary classification datasets. This folder contains also the critical difference diagrams, a useful tool for comparing the performance of the naive and FROCKS methods over all the considered datasets.
 
 ## Contributors
 * Bruno Casella <bruno.casella@unito.it>  
