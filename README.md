@@ -1,8 +1,20 @@
-# FROCKS
+<div align="center">
+
+# Federated Time Series Classification with ROCKET features
+Bruno Casella, Matthias Jakobs, Marco Aldinucci, Sebastian Buschjäger
+
+[![Conference](https://img.shields.io/badge/ESANN-2024-orange)](add_link)
+
+</div>
+
+# Overview
 
 This repository contains the code to run and reproduce the experiments for federating the ROCKET algorithm in the following settings:
 - Federated baseline
 - FROCKS
+
+# Abstract
+This paper proposes FROCKS, a federated time series classification method using ROCKET features. Our approach dynamically adapts the models’ features by selecting and exchanging the best-performing ROCKET kernels from a federation of clients. Specifically, the server gathers the best-performing kernels of the clients together with the associated model parameters, and it performs a weighted average if a kernel is best-performing for more than one client. We compare the proposed method with state-of-the-art approaches on the UCR archive binary classification datasets and show superior performance on most datasets.
 
 ## Usage
 - Clone this repo.
@@ -12,6 +24,21 @@ This repository contains the code to run and reproduce the experiments for feder
 
 ## Results
 The results directory reports the accuracy and F1-score metrics for all the UCR Archive binary classification datasets. This folder contains also the critical difference diagrams, a useful tool for comparing the performance of the naive and FROCKS methods over all the considered datasets.
+
+Please cite as:
+
+```bibtex
+@inproceedings{casella2024frocks,
+  author  = {Casella, Bruno and Jakobs, Matthias and Aldinucci, Marco and Buschjager, Sebastian},
+  title   = {Federated Time Series Classification with ROCKET features,
+  booktitle    = {32nd European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning, {ESANN} 2024, Bruges, Belgium, October 9-11, 2024},
+  year         = {2024},
+  doi          = {},
+	pages = {},
+	publisher = {},
+	url = {}
+}
+```
 
 ## Contributors
 * Bruno Casella <bruno.casella@unito.it>  
