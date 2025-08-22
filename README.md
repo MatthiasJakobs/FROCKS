@@ -3,7 +3,7 @@
 # Federated Time Series Classification with ROCKET features
 Bruno Casella, Matthias Jakobs, Marco Aldinucci, Sebastian Buschjäger
 
-[![Conference](https://img.shields.io/badge/ESANN-2024-orange)]([add_link](https://doi.org/10.14428/esann/2024.ES2024-61))
+[![Conference](https://img.shields.io/badge/ESANN-2024-orange)](https://doi.org/10.14428/esann/2024.ES2024-61)
 
 </div>
 
